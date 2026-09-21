@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+manganai.db
+data/*.csv
+data/*.tif
+models/*.joblib
+outputs/*.json
+outputs/*.geojson
+outputs/*.tif
+!data/.gitkeep
+!models/.gitkeep
+!outputs/.gitkeep
